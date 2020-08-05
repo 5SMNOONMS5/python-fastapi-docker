@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fast-poetry-api"
+version = "0.1.0"
+description = ""
+authors = ["stephen chen <tasb00429@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+# a datetime library
+pendulum = "^1.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
+
+readme = 'README.md'  # Markdown files are supported
